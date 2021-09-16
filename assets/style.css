@@ -19,17 +19,18 @@ h1 {
   padding: .5% 1% .5% 4%;
 }
 
-/* needs help */
 nav ul {
-  font-size: 125%;
-  color: #62cc31;
-  text-decoration: underline 15%;
   display: flex;
+  justify-content: space-between;
+  min-width: 350px;
 }
 
-/* ul:visited {
-  color: none;
-} */
+nav a {
+  font-weight: bold;
+  color: #62cc31;
+  text-decoration: underline 15%;
+  font-size: 125%;
+}
 
 .banner {
   position: relative;
@@ -47,13 +48,29 @@ nav ul {
   color: #474a45;
 }
 
-
 main {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 25%;
 }
+
+section *{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+figure {
+
+}
+
+/* 
+section {
+  display: flex;
+  justify-content: center;
+  margin: 2% 2%;
+  padding-right: .5%;
+  width: 25%;
+} */
 
 h2 {
   /* display: flex;
@@ -61,32 +78,27 @@ h2 {
   /* margin: 0% 2% ; */
   font-size: 300%;
   border-right: 5px solid #474a45;
-  padding-right: .5%;
 } 
 
-figure {
-
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  margin: 2% 2%;
-
-/* There are 3 sections here, you can also use class to differentiate */
-}
-
 h3 {
-/* this is for work box */
-/* color: ; */
+this is for work box
+color: ;
+}
+
+p {
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
 }
 
 section img {
 
 }
 
-section figure {
-
+section figure{
+  /* font-size: 20px;
+  display: flex;
+  justify-self: center; */
 }
 
 figure figcaption{
@@ -105,9 +117,5 @@ figcaption p {
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
-  }
-  
-  main {
-    max-width: 1200px;
   }
 }
