@@ -1,0 +1,113 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* display: flex;
+  flex-direction: column; */
+  color: #474a45;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 1% 1% 0;
+  background-color: #474a45;
+}
+
+h1 {
+  font-size: 300%;
+  background-color: #62cc31;
+  padding: .5% 1% .5% 4%;
+}
+
+/* needs help */
+nav ul {
+  font-size: 125%;
+  color: #62cc31;
+  text-decoration: underline 15%;
+  display: flex;
+}
+
+/* ul:visited {
+  color: none;
+} */
+
+.banner {
+  position: relative;
+  text-align: center;
+  /* color: white; */
+}
+
+.bottom-right {
+  font-size: 150%;
+  position: absolute;
+  padding: .3%;
+  background-color: #62cc31;
+  bottom: 10%;
+  right: 3%;
+  color: #474a45;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  /* display: flex;
+  justify-content: left; */
+  /* margin: 0% 2% ; */
+  font-size: 300%;
+  border-right: 5px solid #474a45;
+  padding-right: .5%;
+} 
+
+figure {
+
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 2% 2%;
+
+/* There are 3 sections here, you can also use class to differentiate */
+}
+
+h3 {
+/* this is for work box */
+/* color: ; */
+}
+
+section img {
+
+}
+
+section figure {
+
+}
+
+figure figcaption{
+    
+}
+
+figcaption h3 {
+
+}
+
+figcaption p {
+
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  
+  main {
+    max-width: 1200px;
+  }
+}
