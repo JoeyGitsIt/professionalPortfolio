@@ -1,118 +1,49 @@
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /* display: flex;
-  flex-direction: column; */
-  color: #474a45;
+.container-fluid {
+  background-color: darkgrey;
+  color: #f0f8f0 !important;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav {
   padding: 1% 1% 1% 0;
   background-color: #474a45;
 }
 
-h1 {
-  font-size: 300%;
-  background-color: #62cc31;
-  padding: .5% 1% .5% 4%;
+li {
+  font-size: 1.5em;
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  min-width: 350px;
+a {
+  color: green !important;
 }
 
-nav a {
-  font-weight: bold;
-  color: #62cc31;
-  text-decoration: underline 15%;
-  font-size: 125%;
+a:hover {
+  color: #62cc31 !important;
 }
 
-.banner {
-  position: relative;
-  text-align: center;
-  /* color: white; */
+div.card-body {
+  background-color: #474a45;
 }
 
-.bottom-right {
-  font-size: 150%;
-  position: absolute;
-  padding: .3%;
-  background-color: #62cc31;
-  bottom: 10%;
-  right: 3%;
-  color: #474a45;
+div.card-body img {
+  width: 100%;
+  height: 100%;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+.card {
+  background-color: #474a45 !important;
 }
 
-section *{
-  display: flex;
-  flex-wrap: wrap;
+.col-md-6 {
+  padding: 10px !important;
 }
 
-figure {
-
+h5.card-header {
+  background-color: #474a45;
 }
 
-/* 
-section {
-  display: flex;
-  justify-content: center;
-  margin: 2% 2%;
-  padding-right: .5%;
-  width: 25%;
-} */
-
-h2 {
-  /* display: flex;
-  justify-content: left; */
-  /* margin: 0% 2% ; */
-  font-size: 300%;
-  border-right: 5px solid #474a45;
-} 
-
-h3 {
-this is for work box
-color: ;
+div.card-footer {
+  background-color: #474a45;
 }
-
-p {
-  display: flex;
-  justify-content: left;
-  font-size: 15px;
-}
-
-section img {
-
-}
-
-section figure{
-  /* font-size: 20px;
-  display: flex;
-  justify-self: center; */
-}
-
-figure figcaption{
-    
-}
-
-figcaption h3 {
-
-}
-
-figcaption p {
-
-}
-
 
 @media screen and (max-width: 768px) {
   header {
